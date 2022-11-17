@@ -1,6 +1,6 @@
 # M153-Project
 
-## Short Description
+## 📔 Short Description
 In a group work (max. two learners) you will design and create a database on a freely chosen topic. The database will be created under MS-SQL(T-SQL)so that all scripts work with the "SQL-Server Management Studio".
 
 The project includes:
@@ -10,7 +10,7 @@ The project includes:
 - SQL code for queries/manipulation or tests, including a short test description for checking the trigger, stored procedure and function.
 - A simple work report (with date, duration, description, person per work carried out). 
 
-## Database
+## 🔢 Database
 The database theme can be freely chosen and must be approved by the teacher before the start of the project.The theme must be unique, i.e. it may only occur once within the class or year.The database must fulfil the following conditions:
 - The ER model has at least four tables.
 - One of the relationships in the ER model must be an n-n relationship.
@@ -28,13 +28,13 @@ The database theme can be freely chosen and must be approved by the teacher befo
 - At least three different queries/manipulations or tests must be executed per trigger, stored procedure or function.
 - At least 20 test data sets must be used per table.
 
-## SQL-Code
+## 📓 SQL-Code
 SQL code is expected for the following functionalities:
 - to create the database incl. triggers and stored procedures/functions
 - to fill the database with test data
 - for each query/ manipulation/ test
 
-## Expected result
+## ✅ Expected result
 A documentation with:
 - Brief description of the topic
 - ER diagram of the database
@@ -51,10 +51,10 @@ Each page of the documentation must contain the following information:
 
 A corresponding Word template can be requested if necessary.
 
-## Work report
+## 🔄 Work report
 The work report (with at least date, duration, description, personper work carried out) must be kept continuously. The teacher must be granted permanent access to the work report. The system used for this (e.g. GitHub, etc.) is free.
 
-## Project submission
+## ➡️ Project submission
 ### Scope:
 A zipped file with the name of the two group members or names in case of an individual work in the following form:
 - M153_Project_LastName1_FirstName1_LastName2_FirstName2.zip. 
