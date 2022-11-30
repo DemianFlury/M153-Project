@@ -1,7 +1,10 @@
 USE master;
 go
 DROP DATABASE IF EXISTS FitnessCourse;
+go
 CREATE DATABASE FitnessCourse;
+go
+use FitnessCourse;
 go
 
 CREATE TABLE Customer(
@@ -30,13 +33,13 @@ CREATE TABLE Course(
 	CourseDescription varchar(255),
 	CourseName varchar(50),
 	CreationDate datetime,
-	fk_CreatorID int foreign key references Creator.CreatorID
+	fk_CreatorID int foreign key references Creator(CreatorID)
 );
 go
 
 CREATE TABLE Visit(
-	fk_CourseID int foreign key references Course.CourseID,
-	fk_CustomerID int foreign key references Customer.CustomerID,
+	fk_CourseID int foreign key references Course(CourseID),
+	fk_CustomerID int foreign key references Customer(CustomerID),
 	VisitDate datetime
 );
 go
