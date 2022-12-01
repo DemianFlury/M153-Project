@@ -8,18 +8,17 @@ use FitnessCourse;
 go
 
 CREATE TABLE Customer(
-	CustomerID int identity primary key not null,
+	CustomerID int identity primary key,
 	Age int,
 	Passwd varchar(50),
 	Email varchar(50),
 	FirstName varchar(25),
 	LastName varchar(25),
-	PaidSubscription bool,
 );
 go
 
 CREATE TABLE Creator(
-	CreatorID int identity primary key not null,
+	CreatorID int identity primary key,
 	Age int,
 	Passwd varchar(50),
 	Email varchar(50),
@@ -29,7 +28,7 @@ CREATE TABLE Creator(
 go
 
 CREATE TABLE Course(
-	CourseID int identity primary key not null,
+	CourseID int identity primary key,
 	Price float,
 	CourseDescription varchar(255),
 	CourseName varchar(50),
@@ -42,6 +41,7 @@ CREATE TABLE Visit(
 	fk_CourseID int foreign key references Course(CourseID),
 	fk_CustomerID int foreign key references Customer(CustomerID),
 	VisitDate datetime,
-	VisitID int identity primary key
+	VisitID int identity primary key,
+	Paid bit not null,
 );
 go
