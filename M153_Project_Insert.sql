@@ -14,7 +14,7 @@ INSERT INTO Customer(Age, Passwd, Email, FirstName, LastName) VALUES
 (43, 'unkreativ', 'gerrybre@protonmail.com', 'Simon', 'Gerhard'),
 (66, 'ichweisnicht', 'GertiBerti@gmail.com', 'Judith', 'Gertner'),
 (54, '67329432', 'DontSentItsBadForEnvironment@gmail.com', 'Greta', 'Tun-oder-nicht-tunberg'),
-(56, 'SchweineMann420', 'LosPollosHermanos@gmail.com', 'Gustavo', 'Fring'),
+(56, 'HühnchenMann420', 'LosPollosHermanos@gmail.com', 'Gustavo', 'Fring'),
 (76, 'Judithsmash', 'CartelLeader@gmail.com', 'Hector', 'Salamanca'),
 (43, 'Hulksmash', 'Lukas@flury.ch', 'Lukas Walter', 'Flury'),
 (21, 'DasIstSehrSicher', 'Cohones@gmail.com', 'Johannes', 'Cohones'),
@@ -73,3 +73,26 @@ INSERT INTO Course(Price, CourseDescription, CourseName, CreationDate, fk_Creato
 (400,'Motivation finden, um jeden Tag ins Gym zu gehen','Gym Habits',02-02-2020, 18),
 (420,'Einfacher Trainingsplan für Beginner um den Oberkörper zu trainieren','Trainingsplan Oberkörper',02-02-2020, 19),
 (365,'Einfacher Trainingsplan für Beginner um die Beine zu trainieren','Trainingsplan Beine',02-02-2020, 20);
+go
+
+INSERT INTO Visit(fk_CourseID, fk_CustomerID, VisitDate, Paid) VALUES
+(1, 20, 12-12-2021, 0)
+(2, 19, 12-12-2021, 0)
+(3, 18, 12-12-2021, 0)
+(4, 16, 12-12-2021, 0)
+(5, 17, 12-12-2021, 0)
+(6, 15, 12-12-2021, 0)
+(7, 14, 12-12-2021, 0)
+(8, 13, 12-12-2021, 0)
+(9, 12, 12-12-2021, 0)
+(10, 11, 12-12-2021, 0)
+(11, 10, 12-12-2021, 0)
+(12, 9, 12-12-2021, 0)
+(13, 8, 12-12-2021, 0)
+(14, 7, 12-12-2021, 0)
+(15, 6, 12-12-2021, 0)
+(17, 5, 12-12-2021, 0)
+(16, 4, 12-12-2021, 0)
+(18, 3, 12-12-2021, 0)
+(19, 2, 12-12-2021, 0)
+(20, 1, 12-12-2021, 0)
