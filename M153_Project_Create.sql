@@ -14,6 +14,7 @@ CREATE TABLE Customer(
 	Email varchar(50),
 	FirstName varchar(25),
 	LastName varchar(25),
+	PaidSubscription bool,
 );
 go
 
@@ -40,6 +41,7 @@ go
 CREATE TABLE Visit(
 	fk_CourseID int foreign key references Course(CourseID),
 	fk_CustomerID int foreign key references Customer(CustomerID),
-	VisitDate datetime
+	VisitDate datetime,
+	VisitID int identity primary key
 );
 go
