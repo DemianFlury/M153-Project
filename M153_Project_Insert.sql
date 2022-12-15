@@ -45,7 +45,7 @@ INSERT INTO Creator(Age, Passwd, Email, FirstName, LastName) VALUES
 (48, 'aaAAHAaAaa', 'bruderelteregönnedned@gmail.com', 'Schibewüscher', 'Kek'),
 (46, 'mirfaelltnichtsein', '12test@gmail.com', 'Johnny', 'Sins'),
 (82, 'gugugaga', 'olibre@gmail.com', 'Olivia', 'Bresa'),
-(45, 'lame', 'CapnCook@gmx.com', 'Jesse', 'Pinkman'),
+(45, 'MistahWhiteYo', 'CaptnCook@gmx.com', 'Jesse', 'Pinkman'),
 (246, 'kenboi', 'Jesus@JediOrder.ga', 'Obi-Wan', 'Kenobi'),
 (53, 'heisenburger', 'heisenberg@gmx.com', 'Walter', 'White'),
 (12, 'SpaceJesus', 'sussybaka@gmx.com', 'Hank', 'Schrader');
@@ -77,22 +77,22 @@ go
 
 INSERT INTO Visit(fk_CourseID, fk_CustomerID, VisitDate, Paid) VALUES
 (1, 20, 12-12-2021, 0)
-(2, 19, 12-12-2021, 0)
+(2, 19, 12-12-2021, 1)
 (3, 18, 12-12-2021, 0)
-(4, 16, 12-12-2021, 0)
-(5, 17, 12-12-2021, 0)
+(4, 16, 12-12-2021, 1)
+(5, 17, 12-12-2021, 1)
 (6, 15, 12-12-2021, 0)
-(7, 14, 12-12-2021, 0)
-(8, 13, 12-12-2021, 0)
-(9, 12, 12-12-2021, 0)
-(10, 11, 12-12-2021, 0)
+(7, 14, 12-12-2021, 1)
+(8, 13, 12-12-2021, 1)
+(9, 12, 12-12-2021, 1)
+(10, 11, 12-12-2021, 1)
 (11, 10, 12-12-2021, 0)
 (12, 9, 12-12-2021, 0)
 (13, 8, 12-12-2021, 0)
 (14, 7, 12-12-2021, 0)
 (15, 6, 12-12-2021, 0)
-(17, 5, 12-12-2021, 0)
-(16, 4, 12-12-2021, 0)
+(17, 5, 12-12-2021, 1)
+(16, 4, 12-12-2021, 1)
 (18, 3, 12-12-2021, 0)
 (19, 2, 12-12-2021, 0)
-(20, 1, 12-12-2021, 0)
+(20, 1, 12-12-2021, 1)
