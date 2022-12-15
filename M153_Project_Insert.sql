@@ -1,10 +1,8 @@
-EXEC sp_MSForEachTable "ALTER TABLE ? NOCHECK CONSTRAINT all"
+use FitnessCourse;
+go
 
-delete from Customer;
-delete from Creator;
-delete from Course;
-delete from Visit;
-
+exec sp_MSForEachTable "ALTER TABLE ? NOCHECK CONSTRAINT all"
+exec sp_MSForEachTable "DELETE FROM ?"
 exec sp_MSForEachTable "ALTER TABLE ? WITH CHECK CHECK CONSTRAINT all"
 
 dbcc checkident(Customer, reseed, 0);
@@ -12,6 +10,7 @@ dbcc checkident(Creator, reseed, 0);
 dbcc checkident(Course, reseed, 0);
 dbcc checkident(Visit, reseed, 0);
 
+go
 
 INSERT INTO Customer(Age, Passwd, Email, FirstName, LastName) VALUES 
 (23, 'ABC', 'franz@gmail.com', 'Franz', 'Herter'),
