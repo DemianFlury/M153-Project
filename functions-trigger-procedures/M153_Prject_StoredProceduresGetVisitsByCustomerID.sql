@@ -8,3 +8,4 @@ BEGIN
 END
 
 EXEC GetVisitsByCustomerId 3;
+
