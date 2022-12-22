@@ -1,7 +1,11 @@
 # M153-Project
 
+## 📓 Project Description
+
+
 ## 📔 Short Description
-In a group work (max. two learners) you will design and create a database on a freely chosen topic. The database will be created under MS-SQL(T-SQL)so that all scripts work with the "SQL-Server Management Studio".
+In a group work (max. two learners) you will design and create a database on a freely chosen topic. 
+The database will be created under MS-SQL(T-SQL)so that all scripts work with the "SQL-Server Management Studio".
 
 The project includes:
 - a documentation with ER-diagram, database description
