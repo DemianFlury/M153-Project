@@ -1,8 +1,0 @@
-CREATE FUNCTION HashPassword(@password NVARCHAR(MAX))
-RETURNS NVARCHAR(MAX)
-AS
-BEGIN
-    DECLARE @hash NVARCHAR(MAX)
-    SET @hash = HASHBYTES('SHA2_256', @password)
-    RETURN @hash
-END

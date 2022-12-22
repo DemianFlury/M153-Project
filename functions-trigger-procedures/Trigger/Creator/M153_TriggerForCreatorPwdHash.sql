@@ -1,3 +1,14 @@
+/*
+	Triggers for CreatorPasswordHash
+	Module:			M153
+	Authors:		Tim Bernhard
+					Demian Flury
+	Language:		T-SQL
+	Database:		FitnessCourse
+
+	Indication:		None
+*/
+
 CREATE TRIGGER HashPasswordTriggerCreator ON Creator
 AFTER INSERT
 AS

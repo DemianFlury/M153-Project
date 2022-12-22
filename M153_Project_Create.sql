@@ -1,3 +1,14 @@
+/*
+	Create Script for FitnessCourse-Database
+	Module:			M153
+	Authors:		Tim Bernhard
+					Demian Flury
+	Language:		T-SQL
+	Database:		FitnessCourse
+
+	Indication:		None
+*/
+
 USE master;
 go
 DROP DATABASE IF EXISTS FitnessCourse;
